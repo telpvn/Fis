@@ -2,9 +2,12 @@ import java.util.Scanner;
 
 public class MyApp {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите число: ");
-        int n = scanner.nextInt();
-        System.out.println("Вы ввели число " + n);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите первое число");
+        int a = sc.nextInt();
+        System.out.println("Введите второе число");
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.out.println("Сумма чисел " + a + " и " + b + " равна " + sum);
     }
 }
